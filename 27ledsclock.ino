@@ -1,5 +1,4 @@
 /**
- * 
  * The 27-Leds Clock
  * https://github.com/nic/clock
  * 
