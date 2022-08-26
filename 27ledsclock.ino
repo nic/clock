@@ -53,10 +53,6 @@ void setup() {
   pixels.show();
 
   setup_wifi();
-  
-  Serial.println("Ready");
-  Serial.print("IP address: ");
-  Serial.println(WiFi.localIP());
 
   
   timeClient.begin();
