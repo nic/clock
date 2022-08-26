@@ -24,7 +24,6 @@ NTPClient timeClient(ntpUDP, NTPURL, -3 * 3600, 60000);
 Adafruit_NeoPixel pixels(LED_COUNT, LED_PIN, NEO_GRBW + NEO_KHZ800);
 
 BearSSL::WiFiClientSecure wifiClient;
-PubSubClient MQTT(BROKER_MQTT, BROKER_PORT, wifiClient);
 
 unsigned long previousMillis = 0;
 const long interval = 4000;
