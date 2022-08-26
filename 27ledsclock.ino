@@ -5,7 +5,6 @@
  * Fernanda Vassoler & Nic Marcondes (c) 2020
  */
 #include <ESP8266WiFi.h>
-#include <ESP8266mDNS.h>
 #include <WiFiUdp.h>
 #include <NTPClient.h>
 #include <Adafruit_NeoPixel.h>
