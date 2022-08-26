@@ -1,8 +1,9 @@
 /**
- * 27LedsClock – https://github.com/nic/clock
+ * 
+ * The 27-Leds Clock
+ * https://github.com/nic/clock
  * 
  * Fernanda Vassoler & Nic Marcondes (c) 2020
- * 
  */
 #include <ESP8266WiFi.h>
 #include <ESP8266mDNS.h>
